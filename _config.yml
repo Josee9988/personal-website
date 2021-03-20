@@ -16,11 +16,11 @@ defaults:
           layout: 'post'
 
 projects:
-    sort_by: pushed
+    sort_by: stars
     # sort_by options:
     #   - pushed
     #   - stars
-    limit: 12
+    limit: 9
     exclude:
         archived: false
         forks: true
@@ -62,9 +62,9 @@ topics:
       web_url: https://github.com/topics/typescript
       image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png
 
-    - name: Vue.js
-      web_url: https://github.com/topics/vue
-      image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png
+    - name: Npm
+      web_url: https://github.com/topics/npm
+      image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/npm/npm.png
 
     - name: Node.js
       web_url: https://github.com/topics/nodejs
